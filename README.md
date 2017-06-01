@@ -61,3 +61,5 @@ in the videos the detected lane lines are jittering quite bad, especially in the
 
 
 ### 3. Suggest possible improvements to your pipeline
+One of the possible improvement could be so that it would work for all videos. It has not worked for challenging video.
+Perhaps the routine can be improved so that it worked for all videos. 
