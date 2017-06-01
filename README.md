@@ -1,15 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-## 	Building pipeline Steps
-	•	Load image
-	•	Apply grayscale()
-	•	Apply canny()
-	•	Apply gaussian_blur()
-	•	Apply region_of_interest()
-	•	Apply draw_lines()
-	•	Apply hough_lines()
-
-
 ###  Input and Output of images
 
 <p align="center">
@@ -45,6 +35,15 @@
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
+## 	Building pipeline Steps
+	•	Load image
+	•	Apply grayscale()
+	•	Apply canny()
+	•	Apply gaussian_blur()
+	•	Apply region_of_interest()
+	•	Apply draw_lines()
+	•	Apply hough_lines()
+	
 Function draw line was modified to extrapolate the line. The way to do it was to calculate mean slope and intercept and draw line between highest point and lower edge of the image and Overlay with original picture. 
 
 
