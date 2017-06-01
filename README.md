@@ -27,6 +27,19 @@
   <img src="./test_images_output/whiteCarLaneSwitch.jpg" width="350"/>
 </p>
 
+###  Input and Output of Videos
+
+#### Input - test_videos folder
+
+#### Output - test_videos_output folder
+
+<p align="center">
+  <video width="350" height="240" controls>
+	  <source src="./test_videos/solidWhiteRight.mp4" type="video/mp4">
+	  <source src="./test_videos_output/solidWhiteRight.mp4" type="video/ogg">
+  </video>
+</p>
+
 
 ### Reflection
 
@@ -48,7 +61,3 @@ in the videos the detected lane lines are jittering quite bad, especially in the
 
 
 ### 3. Suggest possible improvements to your pipeline
-
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
